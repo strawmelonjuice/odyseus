@@ -23,6 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: erlef/setup-beam@v1
+        with:
+          gleam-version: "1.10.0"
       - uses: actions/setup-node@v4
         with:
           node-version: "20.x"
@@ -35,6 +38,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
+      - uses: erlef/setup-beam@v1
+        with:
+          gleam-version: "1.10.0"
       - run: gleam deps download
       - run: gleam test --target javascript --runtime bun
       - run: gleam format --check src test
