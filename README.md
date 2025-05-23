@@ -1,17 +1,17 @@
-# odyseus
+# odysseus
 
-[![Package Version](https://img.shields.io/hexpm/v/odyseus)](https://hex.pm/packages/odyseus)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/odyseus/)
+[![Package Version](https://img.shields.io/hexpm/v/odysseus)](https://hex.pm/packages/odysseus)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/odysseus/)
 
-[Houdini](https://hexdocs.pm/houdini/) was a master of escaping, Odyseus bound himself to his ship to
+[Houdini](https://hexdocs.pm/houdini/) was a master of escaping, odysseus bound himself to his ship to
 survive the sirens... thereby being a master of _unescaping_, I guess.
 
 ```sh
-gleam add odyseus@1
+gleam add odysseus@1
 ```
 
 ```gleam
-import odyseus
+import odysseus
 import houdini
 
 pub fn main() -> Nil {
@@ -22,12 +22,12 @@ pub fn main() -> Nil {
 
 
   // Now, time to unescape them to get the originals!
-  let unescaped_string = odyseus.unescape(escaped_string)
-  let caught_sting = odyseus.unescape(escaped_sting)
+  let unescaped_string = odysseus.unescape(escaped_string)
+  let caught_sting = odysseus.unescape(escaped_sting)
 }
 ```
 
-Further documentation can be found at <https://hexdocs.pm/odyseus>.
+Further documentation can be found at <https://hexdocs.pm/odysseus>.
 
 ## Development
 

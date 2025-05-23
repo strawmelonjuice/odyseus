@@ -1,4 +1,4 @@
-name = "odyseus"
+name = "odysseus"
 version = "1.0.0"
 description = "UN-escaping HTML"
 licences = ["Apache-2.0"]
@@ -12,6 +12,8 @@ licences = ["Apache-2.0"]
 #
 # For a full reference of all the available options, you can have a look at
 # https://gleam.run/writing-gleam/gleam-toml/.
+
+repository = { type = "github", user = "strawmelonjuice", repo = "odysseus" }
 
 [dev-dependencies]
 gleam_stdlib = ">= 0.44.0 and < 2.0.0"

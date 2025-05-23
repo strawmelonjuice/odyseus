@@ -1,4 +1,4 @@
--module(odyseus_ffi).
+-module(odysseus_ffi).
 -export([do_unescape/1]).
 
 entities() ->

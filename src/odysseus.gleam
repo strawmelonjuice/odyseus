@@ -5,6 +5,6 @@
 ///   - `&quot;` becomes `"`
 ///   - `&#39;` becomes `'`
 /// etc.
-@external(erlang, "odyseus_ffi", "do_unescape")
-@external(javascript, "./odyseus_ffi.js", "do_unescape")
+@external(erlang, "odysseus_ffi", "do_unescape")
+@external(javascript, "./odysseus_ffi.js", "do_unescape")
 pub fn unescape(escaped: String) -> String
